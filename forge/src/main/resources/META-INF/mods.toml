@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All-Rights-Reserved"
+issueTrackerURL=""
+
+[[mods]]
+modId="${modId}"
+version="${version}"
+displayName="TwitchHUD"
+authors="Wolfiy"
+description="Configurable Twitch chat HUD overlay for competitive PvP streaming."
+logoFile="assets/twitchhud/icon.png"
+
+[[dependencies.${modId}]]
+    modId="forge"
+    mandatory=true
+    versionRange="[52.1.16,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.${modId}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="CLIENT"

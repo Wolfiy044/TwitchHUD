@@ -1,0 +1,9 @@
+.gradle/
+build/
+run/
+*.iml
+.idea/
+out/
+bin/
+twitchhud-secrets.properties
+twitchhud-oauth.properties
