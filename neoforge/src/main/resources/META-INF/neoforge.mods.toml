@@ -1,7 +1,7 @@
 modLoader="javafml"
 loaderVersion="[1,)"
 license="All-Rights-Reserved"
-issueTrackerURL=""
+issueTrackerURL="https://github.com/Wolfiy044/TwitchHUD/issues"
 
 [[mods]]
 modId="${modId}"

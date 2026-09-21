@@ -7,6 +7,11 @@
   "authors": ["Wolfiy"],
   "license": "All-Rights-Reserved",
   "icon": "assets/twitchhud/icon.png",
+  "contact": {
+    "homepage": "https://github.com/Wolfiy044/TwitchHUD",
+    "issues": "https://github.com/Wolfiy044/TwitchHUD/issues",
+    "sources": "https://github.com/Wolfiy044/TwitchHUD"
+  },
   "environment": "client",
   "entrypoints": {
     "client": [
