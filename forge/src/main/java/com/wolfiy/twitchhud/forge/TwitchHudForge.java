@@ -15,6 +15,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 import java.nio.file.Path;
 
@@ -29,7 +30,8 @@ public final class TwitchHudForge {
     private static KeyMapping openConfigKey;
     private static KeyMapping openChatKey;
 
-    public TwitchHudForge(IEventBus modEventBus) {
+    public TwitchHudForge() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::onClientSetup);
         modEventBus.addListener(this::onAddOverlayLayers);
         modEventBus.addListener(this::onRegisterKeyMappings);
